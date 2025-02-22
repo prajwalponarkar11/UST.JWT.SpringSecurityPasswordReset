@@ -1,0 +1,14 @@
+server:
+  port: 2008
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/securityustproject
+    username: root
+    password: Arjun@89511
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
